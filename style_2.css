@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: "Gowun Dodum";
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: navy;
+  padding: 8px 12px;
+}
+.navbar__logo {
+  font-size: 24px;
+  color: white;
+}
+.navbar__logo i {
+  color: rgb(207, 177, 236);
+}
+.navbar__menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.navbar__menu li {
+  padding: 8px 12px;
+}
+.navbar__menu li:hover {
+  background-color: orange;
+  border-radius: 8px;
+}
+.search {
+  display: flex;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+  }
+  .navbar__menu {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar__menu li {
+    width: 100%;
+    text-align: center;
+  }
+  .search {
+    justify-content: center;
+    width: 100%;
+  }
+}
+.gaegul {
+  background-image: url("image/gaegulninza.png");
+  width: 1800%;
+  height: 1050px;
+  background-size: 1520px 690px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Gowun Dodum";
+}
+
+img {
+  border-style: dashed;
+  border-color: white;
+  border-radius: 30px;
+  margin: 0 400px;
+}
+#hobby {
+  padding: 0 30px;
+}
+h1 {
+  margin: 0 100px;
+  font-size: 2em;
+}
+.pokemon {
+  background-image: url("image/pokemon.png");
+  width: 1800%;
+  height: 1050px;
+  background-size: 1520px 690px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+span {
+  background-color: white;
+}
+fieldset {
+  background-color: white;
+  font-size: 1.5em;
+}
+ul {
+  color: white;
+}
